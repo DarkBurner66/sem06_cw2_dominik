@@ -41,9 +41,6 @@ header{
     border-bottom-left-radius:20px ;
 }
 header .wrapper{
-     
-    
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,5 +69,35 @@ h1{
 .contenu li{
     background: rgb(15, 38, 49);
     border-radius: 10px;
-padding: 20px;
+    padding: 20px;
+    position: relative;
+}
+.contenu .bouton{
+    background: rgba(256, 256, 256, 0.5);
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.contenu .bouton:hover{
+    cursor: pointer;
+}
+
+/* footer */
+
+footer .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+    background: rgba(15, 38, 49, 0.95);
+    font:small-caps 1rem;
+    text-transform: uppercase;
+    
 }
