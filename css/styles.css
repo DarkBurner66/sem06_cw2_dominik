@@ -1,0 +1,76 @@
+/*------------------------------------
+BASE
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*------------------------------------
+ELEMENT
+------------------------------------*/
+body{
+    font-family:"Averia Serif Libre" ;
+    font-weight: 700;
+    color:#eca136;
+    background: rgb(9, 26, 33);
+}
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/*------------------------------------
+COMPONENT
+------------------------------------*/
+/* header */
+header{
+    width: 1000px;
+   background: rgba(15, 38, 49, 0.95);
+    position: fixed; 
+    left: calc(50% - 500px);
+    top: 0;
+    border-bottom-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+}
+header .wrapper{
+     
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+h1{
+    font: 2.5rem  ;
+}
+
+/* conteneur principale */
+.contenu .wrapper{
+    max-width: 925px;
+    margin: 100px auto 0;
+}
+.contenu img{
+    max-width: 100%;
+}
+.contenu ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+    list-style: none;
+    padding: 0;
+    
+}
+.contenu li{
+    background: rgb(15, 38, 49);
+    border-radius: 10px;
+padding: 20px;
+}
