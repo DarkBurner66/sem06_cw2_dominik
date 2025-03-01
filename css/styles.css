@@ -101,3 +101,28 @@ footer .wrapper{
     text-transform: uppercase;
     
 }
+
+/* nav */
+.media{
+    background: rgb(15, 38, 49);
+    border-top-right-radius:15px ;
+    border-bottom-right-radius:15px ;
+    position: fixed;
+    left: 0;
+    top: 200px;
+}
+.media img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    position: relative;
+}
+.media img:hover{
+    left: 3px;
+}
+.media ul{
+    margin: 0;
+    padding: 0;
+list-style: none;
+
+}
